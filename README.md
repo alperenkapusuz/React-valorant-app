@@ -21,4 +21,4 @@ api site:
 https://dash.valorant-api.com/endpoints/agents
 
 ------------------------------------
-youtube: 
+youtube: https://youtu.be/2ombNxtH070
