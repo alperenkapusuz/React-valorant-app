@@ -1,0 +1,43 @@
+.container{
+    
+}
+
+.name-description{
+    justify-content: center;
+    margin:0 auto;
+    text-align: center;
+    width: 570px;
+    margin-right: -25px;
+}
+
+.fullportrait{
+    justify-content: center;
+    width: 650px;
+    margin:0 auto;
+    margin-left: -25px;
+    margin-top: -470px;
+}
+
+.fullportrait img{
+    width: 660px;
+    margin-left: 40px;
+}
+
+.ability{
+    display: flex;
+    width:570px ;
+    justify-content: center;
+    margin-left: 629px;
+    margin-top: 40px;
+}
+    
+
+.ability img{
+    width: 100px;
+    padding: 20px;
+}
+
+.ability h4{
+    margin: 5px;
+    margin-left: 35px;
+}

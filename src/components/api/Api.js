@@ -1,13 +1,13 @@
 import axios from "axios";
 
-const mainLink = "https://valorant-api.com/v1"
+const mainLink = "http://localhost:3000"
 
-export const fetchAgentData = async () => {
-    const { data } = await axios.get(`${mainLink}/agents`)
+export const fetchAgents = async () => {
+    const { data } = await axios.get(`${mainLink}/agentsname`)
     return data
 }
 
 export  const fetchAgentsStats = async (agent) => {
-    const {data} = await axios.get(`${mainLink}/agents/${agent}`)
+    const {data} = await axios.get(`${mainLink}/${agent}`)
     return data
 }
